@@ -8,7 +8,6 @@ import json
 import os
 import time
 import datetime
-from collections import OrderedDict
 
 import paho.mqtt.client as mqtt
 
