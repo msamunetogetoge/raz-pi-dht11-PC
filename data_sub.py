@@ -12,7 +12,7 @@ host = '127.0.0.1'
 port = 1883
 keepalive = 60
 topic = 'mqtt/test'
-fileName = "path_to_csvfile"
+fileName = "path_to_csvfile.csv"
 
 def on_connect(client, userdata, flags, rc):
     print('Connected with result code ' + str(rc))
